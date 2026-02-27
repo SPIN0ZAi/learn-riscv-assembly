@@ -1,0 +1,12 @@
+# Ignore the original unorganized files at the repo root
+# (only the organized subfolders are part of this repo)
+/*.s
+/*.txt
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Editor files
+.vscode/
+*.swp
