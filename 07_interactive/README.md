@@ -1,6 +1,6 @@
 # 07 — Interactive Programs
 
-These programs react to real-time user input via the **D-PAD peripheral** in RARS.
+These programs react to real-time user input via the **D-PAD peripheral** in Ripes.
 They combine graphics + input polling in a continuous game loop.
 
 ---

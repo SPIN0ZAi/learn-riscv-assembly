@@ -3,8 +3,8 @@
 A collection of **RISC-V assembly programs** written during the first year of computer engineering.
 Organized by topic so other students can find examples quickly and learn step by step.
 
-> **Simulator used:** [RARS](https://github.com/TheThirdOne/rars) — RISC-V Assembler and Runtime Simulator  
-> All programs are written for **RV32I** (32-bit RISC-V) and tested in RARS.
+> **Simulator used:** [Ripes](https://github.com/mortbopet/Ripes) — Visual RISC-V Simulator  
+> All programs are written for **RV32I** (32-bit RISC-V) and tested in Ripes.
 
 ---
 
@@ -28,9 +28,9 @@ Each folder has its own `README.md` explaining the concepts and what each file t
 
 ## 🚀 Getting started
 
-### 1. Install RARS
-Download the latest `.jar` from [github.com/TheThirdOne/rars/releases](https://github.com/TheThirdOne/rars/releases)  
-Run with: `java -jar rars.jar`
+### 1. Install Ripes
+Download the latest release from [github.com/mortbopet/Ripes/releases](https://github.com/mortbopet/Ripes/releases)  
+Run the `.exe` (Windows) or `.AppImage` (Linux) — no Java needed.
 
 ### 2. Open a file
 `File → Open` → navigate to any `.s` file in this repo
@@ -184,10 +184,10 @@ li a7, 30 ; ecall  # get system time in ms → a0
 ## 📝 Notes for students
 
 - **`-Copy` files** from the original folder are **not included** — they were just backups.
-- Some programs require RARS peripherals enabled:
+- Some programs require Ripes peripherals enabled:
   - *Bitmap Display* (for graphics programs)
-  - *Digital Lab Sim* or *Keyboard and Display MMIO Simulator* (for I/O programs)
-- The simulator addresses (like `0xffff6000`) are RARS-specific — they will differ on real hardware.
+  - *I/O tab* (for keypad, sensor, and display programs)
+- The simulator addresses (like `0xffff6000`) are Ripes-specific — they will differ on real hardware.
 - Comments are in English and Spanish in some files — both are valid!
 
 ---

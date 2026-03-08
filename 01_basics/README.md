@@ -1,6 +1,6 @@
 # 01 — Basics
 
-> **Recommended simulator:** [RARS](https://github.com/TheThirdOne/rars) (RISC-V Assembler and Runtime Simulator)
+> **Recommended simulator:** [Ripes](https://github.com/mortbopet/Ripes) — Visual RISC-V Simulator
 
 This folder contains the very first programs you should study.
 They cover the fundamental building blocks of any RISC-V assembly program.

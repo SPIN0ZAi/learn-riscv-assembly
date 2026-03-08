@@ -3,7 +3,7 @@
 These programs interact with simulated hardware peripherals:
 sensors, displays, door locks, keypads, conveyor belts, LED matrices, and GPS.
 
-> All programs target the **RARS** simulator with its built-in I/O peripherals.
+> All programs target the **Ripes** simulator with its built-in I/O peripherals.
 
 ---
 
@@ -30,5 +30,5 @@ sensors, displays, door locks, keypads, conveyor belts, LED matrices, and GPS.
   — `lw` reads the port state, `sw` writes control bits back
 - **Bit isolation:** `andi t0, t0, 0b1` isolates bit 0; shift left/right to check any bit
 - **Polling loop:** keep calling `lw` in a loop until the status bit is set
-- **`ecall` numbers above 10** are simulator-specific (RARS) for sensors, time, etc.
+- **`ecall` numbers above 10** are simulator-specific (Ripes) for sensors, time, etc.
 - **Subroutines (functions):** save/restore `ra` with `sw ra, 0(sp)` / `lw ra, 0(sp)` when calling nested functions

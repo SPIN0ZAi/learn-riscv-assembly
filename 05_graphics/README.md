@@ -1,6 +1,6 @@
 # 05 — Graphics
 
-These programs draw shapes and graphics on the simulated **Bitmap Display** in RARS.
+These programs draw shapes and graphics on the simulated **Bitmap Display** in Ripes.
 
 > **How it works:** The display is a grid of pixels. Each pixel is a 32-bit ARGB color
 > stored at a memory address. Writing `0xffff0000` (red) to an address lights up that pixel.
